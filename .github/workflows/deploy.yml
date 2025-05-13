@@ -29,3 +29,5 @@ jobs:
           app-name: house-inventory  # <-- Replace with your app name
           slot-name: production
           publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
+
+
