@@ -8,7 +8,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # You can restrict this to ["http://localhost:5500"] in production
+    allow_origins=["https://www.vinaraja.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
